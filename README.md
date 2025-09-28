@@ -9,17 +9,21 @@
 │  Kaynak Siteler           │
 └───────────────┬───────────┘
                 │  Web Scraper (Python, Playwright/BeautifulSoup)
+                
 ┌───────────────▼───────────┐
 │  Veri Kuyruğu (RabbitMQ)  │
 └───────────────┬───────────┘
                 │  ETL & Çok Dilli NLP
+                
 ┌───────────────▼───────────┐
 │  ML Modeli (BERT/LLM)     │
 └───────────────┬───────────┘
+
                 │
 ┌───────────────▼───────────┐
 │  API (FastAPI/Django)     │
 └───────────────┬───────────┘
+
                 │
 ┌───────────────▼───────────┐
 │  Frontend (React/Next.js) │
